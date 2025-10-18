@@ -214,7 +214,7 @@ mobs:register_mob("dementedscript:herobrine", {
 
         end
 
-        -- === Handle invisibility timeout ===
+        -- Handle invisibility timeout
 
         if self.is_invisible then
 
@@ -425,5 +425,6 @@ mobs:register_mob("aardrooms:blimey", {
         minetest.log("action", "[Blimey] Spawned at " .. minetest.pos_to_string(self.object:get_pos()))
 
     end,
+
 
 })
